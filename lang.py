@@ -135,7 +135,7 @@ docs = text_splitter.create_documents([text])
 for i, d in enumerate(docs):
     d.metadata = {"doc_id": i}
     
-os.environ["GEMINI_API_KEY"] = "AIzaSyAQFDd6KerMZ0GTWENGeYciAhOcqoKpM0c"
+os.environ["GEMINI_API_KEY"] = ""
 
 # This function takes a a sentence as an arugument and return it's embeddings
 def get_embeddings(text):
